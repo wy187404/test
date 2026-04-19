@@ -1,0 +1,46 @@
+# Android Studio 配置文件
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea/
+captures/
+.navigation/
+
+# 构建产物
+build/
+*/build/
+app/build/
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+
+# Gradle 缓存文件
+.gradle/
+gradle/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+.gradle-user/
+
+# 本地配置文件
+local.properties
+signing.properties
+
+# 日志文件
+*.log
+log/
+
+# 临时文件
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# 调试 keystore
+*.keystore
+*.jks
+debug.keystore
+debug.keystore.lock
